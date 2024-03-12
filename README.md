@@ -25,4 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
 # Angular-Tutorial2
+環境構築
+1. docker-compose up -d
+2. docker-compose exec angular-tutorial-heros bash
+3. yarn install
+4. tini -- ng serve --host 0.0.0.0
+
+http://localhost:3030/ にアクセス
